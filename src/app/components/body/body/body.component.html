@@ -1,0 +1,30 @@
+<div class="container  m-5">
+    <div class="row align-items-start">
+      <div class="col" *ngIf="muestra2">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+      </div>
+      <div class="col" *ngIf="muestra">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+      </div>
+  </div>
+  <button type="button" (click)="mePuchaste()" class="btn btn-primary">Puchame</button>
+  <button type="button" (click)="mePuchaste2()" class="btn btn-primary">Puchame</button>
+
+<div>
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <!--<input type="number" [(ngModel)]="correo">-->
+</div>
